@@ -1,0 +1,39 @@
+.navbar-container {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+}
+
+.navbar-fill {
+  animation: change-color 300ms;
+  animation-fill-mode: forwards;
+}
+
+.navbar-header {
+  color: red;
+  font-size: 28px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-search {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@keyframes change-color {
+  from {
+    background-color: none;
+  }
+  to {
+    background-color: #000;
+  }
+}

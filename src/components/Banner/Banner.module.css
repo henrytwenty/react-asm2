@@ -1,0 +1,41 @@
+.banner {
+  width: 100vw;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-img {
+  object-fit: cover;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.075);
+}
+.banner-info {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  bottom: 0;
+  left: 0;
+  padding: 16px 32px;
+  position: absolute;
+}
+
+.banner-info__title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.banner-info__overview {
+  font-size: 14px;
+  color: #fff;
+  width: 30%;
+}
+
+.banner-info__btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  margin-right: 12px;
+}
